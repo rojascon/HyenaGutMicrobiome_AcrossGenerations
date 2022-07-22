@@ -35,6 +35,10 @@ rownames(cogabun)=cogabun$gf; cogabun$gf=NULL;
 keggabun=keggabun[,order(colnames(keggabun))];
 cogabun=cogabun[,order(colnames(cogabun))];
 
+# convert TPM counts to proportions so all samples equal 100
+keggabun<-apply(keggabun, 2, function(i) (i/sum(i)));
+cogabun<-apply(cogabun, 2, function(i) (i/sum(i)));
+
 # transpose for vegdist
 keggabun=as.data.frame(t(keggabun));
 cogabun=as.data.frame(t(cogabun));
@@ -108,11 +112,11 @@ pcoa1=ggplot(pcoa_met, aes(Axis1, Axis2))+
         axis.title.y=element_text(size=13, face="bold"));plot(pcoa1);
 
 ################################################################################
-#             4. PCoA of COG distances ~ prey abundance         
+#             4. PCoA of KEGG distances ~ prey abundance         
 ################################################################################
 
 # calculate coordinates for PCoA
-pcoa_dec=cmdscale(cog.dist, eig=TRUE);  
+pcoa_dec=cmdscale(kegg.dist, eig=TRUE);  
 pcoa=as.data.frame(pcoa_dec$points);
 colnames(pcoa)=c("Axis1","Axis2");
 pcoa=tibble::rownames_to_column(as.data.frame(pcoa), "sampleID");
@@ -126,18 +130,14 @@ pcoa_per=(pcoa_dec$eig/sum(pcoa_dec$eig))*100;
 ax1=format(pcoa_per[1], digits=2, nsmall=2);
 ax2=format(pcoa_per[2], digits=2, nsmall=2);
 
-
-################################################################################
-#             5. PCoA of COG distances ~ prey abundance         
-################################################################################
-
+# plot!
 pcoa2=ggplot(pcoa_met, aes(Axis1, Axis2))+
   geom_point(mapping=aes(fill=preym),
              size = 2.5,
              shape=21)+
   labs(y=paste("PC2 (",ax2,"%)",sep=""),
        x=paste("PC1 (",ax1,"%)",sep=""),
-       fill="Hyena ID")+
+       fill="Prey Abun.")+
   scale_fill_viridis_c(begin=0.18)+
   theme_bw()+
   theme(panel.grid.major = element_blank(),
@@ -154,7 +154,7 @@ pcoa2=ggplot(pcoa_met, aes(Axis1, Axis2))+
 
 
 ################################################################################
-#             6. save figures 
+#             5. save figures 
 ################################################################################
 
 pcas=arrangeGrob(pcoa1,pcoa2, nrow=1); 

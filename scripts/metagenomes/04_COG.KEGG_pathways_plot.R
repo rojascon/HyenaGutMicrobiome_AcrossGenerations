@@ -91,10 +91,19 @@ ggsave(filename="04_kegg_bar.pdf",
 #             3. Barplot of COG abundances             
 ################################################################################
 
+# convert COG TPM abundances to proportions so all samples add up to 100
+cogabun[,-1] <- lapply(cogabun[,-1], function(x) (x/sum(x))*100);
+
 # remove less abundant pathways for plotting purposes
 cogabun$avg=rowMeans(cogabun[,-1]);
-top=cogabun[cogabun$avg>1300,]; top$avg=NULL;
+top=cogabun[cogabun$avg>2,]; top$avg=NULL;
 colnames(top)[1]="COG.Pathway";
+
+# denote the rest of phyla as "Other"
+newrow=c(NA, 100-colSums(top[2:ncol(top)])); 
+top=rbind(top, newrow); 
+top$COG.Pathway=as.character(top$COG.Pathway);
+top[nrow(top),1]="Other";
 
 # melt data frame for ggplot
 cbar<-reshape2::melt(top, id.vars="COG.Pathway",
@@ -111,7 +120,7 @@ cogcol=c("#771155", "#AA4488", "#CC99BB", "#114477", "#4477AA", "#77AADD",
 cogcol2=c("#771155", "#AA4488", "#CC99BB", "#114477", "#4477AA", "#77AADD", 
           "#117777", "#737373", "#44AA77", "#88CCAA", "#777711", "#AAAA44", 
           "#DDDD77","#774411", "#AA7744", "#DDAA77", "#771122", "#AA4455", "beige",
-          "grey","black") 
+          "grey","black");
 
 # create plot
 barc=ggplot(data=cbar, 
@@ -120,8 +129,8 @@ barc=ggplot(data=cbar,
   facet_grid(~hyenaID2,scales="free_x")+ 
   theme_bw()+ 
   labs(x = "",
-       y = "TPM",
-       fill="COG Pathway")+ #COG Pathway COG Category
+       y = "Relative Abundance (%)",
+       fill="COG Category")+ #COG Pathway COG Category
   scale_fill_manual(values=cogcol)+ #fam_col; bcol
   theme(legend.position="right", 
         legend.text = element_text(size=10),
