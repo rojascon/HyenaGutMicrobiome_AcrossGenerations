@@ -136,7 +136,8 @@ for(i in 2:11)
 # trim model output to only include Beta-coefficients and their pvalues
 amodtbl=ares[ares$terms!="(Intercept)",];
 amodtbl$padj=p.adjust(amodtbl$p.Satt, n=nrow(amodtbl),method="fdr");
-amodtbl2=amodtbl[amodtbl$p.Satt<0.05,];
+#amodtbl2=amodtbl[amodtbl$p.Satt<0.05,];
+amodtbl2=amodtbl[amodtbl$padj<0.05,];
 #write.csv(amodtlb, "model.output.coreASVs.csv", row.names=F);
 
 
@@ -144,7 +145,7 @@ amodtbl2=amodtbl[amodtbl$p.Satt<0.05,];
 #           5.  Plot beta-coefficients of model terms with p.values a<0.05
 ################################################################################
 # create color palette for each model variable
-phy_col=c('#66c2a5','#fc8d62','#7570b3','#e78ac3','#a6d854','#ffd92f');
+phy_col=c('#fc8d62','#7570b3');
 
 # plot diverging dot plot
 betaasv<-ggplot(amodtbl2, aes(x=reorder(taxa,Estimate),
@@ -153,11 +154,8 @@ betaasv<-ggplot(amodtbl2, aes(x=reorder(taxa,Estimate),
              stat='identity',
              pch=21,
              size = 3)+
-  ylim(-3.2,0.5)+
-  scale_y_continuous(breaks=c(-3,-2,-1,0,0.2,0.4))+
   scale_fill_manual(values=phy_col,
-                    labels=c("Age","Matriline3",
-                             "PreyAbund","Year"))+
+                    labels=c("PreyAbund","Year"))+
   coord_flip() +
   theme_bw() + 
   geom_hline(yintercept = 0, linetype="dashed", 
@@ -192,8 +190,8 @@ ggsave(filename="04_heatmap_coreASVs.pdf",
 ggsave(filename="04_coreASVs_LMMbetacoeff.pdf",
        device="pdf",path="figures",
        plot=betaasv,
-       width=7.5,
-       height=4,
+       width=7,
+       height=2.3,
        units="in",
        dpi=500);
 

@@ -139,7 +139,9 @@ for(i in 2:18)
 # trim model output to only include Beta-coefficients and their pvalues
 gmodtbl=gres[gres$terms!="(Intercept)",];
 gmodtbl$padj=p.adjust(gmodtbl$p.Satt, n=nrow(gmodtbl),method="fdr");
-gmodtbl2=gmodtbl[gmodtbl$p.Satt < 0.05,];
+#gmodtbl2=gmodtbl[gmodtbl$p.Satt < 0.05,];
+gmodtbl2=gmodtbl[gmodtbl$padj < 0.05,];
+#
 #write.csv(gmodtlb, "model.output.coregenera.csv", row.names=F);
 
 
@@ -148,7 +150,7 @@ gmodtbl2=gmodtbl[gmodtbl$p.Satt < 0.05,];
 ################################################################################
 
 # create color palette for each model variable
-phy_col=c('#66c2a5','#fc8d62','#7570b3','#e78ac3','#a6d854','#ffd92f');
+phy_col=c('#fc8d62','#7570b3');
 
 # plot diverging dot plot
 betagen<-ggplot(gmodtbl2, aes(x=reorder(taxa,Estimate),
@@ -157,11 +159,8 @@ betagen<-ggplot(gmodtbl2, aes(x=reorder(taxa,Estimate),
              stat='identity',
              pch=21,
              size = 3)+
-  ylim(-3.2,0.7)+
-  scale_y_continuous(breaks=c(-3,-2,-1,0,0.3,0.6))+
   scale_fill_manual(values=phy_col,
-                    labels=c("Age","Matriline3",
-                             "PreyAbund","Year"))+
+                    labels=c("PreyAbund","Year"))+
   coord_flip() +
   theme_bw() + 
   geom_hline(yintercept = 0, linetype="dashed", 
@@ -196,8 +195,8 @@ ggsave(filename="04_heatmap_coregenera.pdf",
 ggsave(filename="04_coregenera_LMMbetacoeff.pdf",
        device="pdf",path="figures",
        plot=betagen,
-       width=7.5,
-       height=4,
+       width=7,
+       height=2.7,
        units="in",
        dpi=500);
 
