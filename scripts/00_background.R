@@ -29,7 +29,7 @@ pacman::p_load("car","MASS","dplyr","tidyr","reshape2","vegan","ggplot2",
                "Biostrings","QsRutils","phangorn","ape","pheatmap","stringr",
                "dada2","DECIPHER","gridExtra","decontam", "sjPlot","lubridate",
                "purrr","stringi","MuMIn","chron","philentropy","matrixStats",
-               "data.table","lmerTest");
+               "data.table","lmerTest","ggtree","treeio");
 
 
 ################################################################################
@@ -45,5 +45,6 @@ ggplot2_3.3.3| vegan_2.5-7| permute_0.9-5| reshape2_1.4.4| tidyr_1.1.2| dplyr_1.
 MASS_7.3-53| car_3.0-10| pacman_0.5.1| stringr_1.4.0| DECIPHER_2.14.0| dada2_1.14.1|
 gridExtra_2.3| decontam_1.6.0 | sjPlot_2.8.7| lubridate_1.7.9.2,
       purrr_0.3.4|stringi_1.5.3| MuMIn_1.43.17 | chron_2.3-56 |
-      philentropy_0.4.0 | matrixStats_0.57.0 | data.table_1.14.2 | lmerTest_3.1-3");
+      philentropy_0.4.0 | matrixStats_0.57.0 | data.table_1.14.2 | lmerTest_3.1-3 |
+      ggtree_3.5.1.900| treeio_1.21.0");
 
