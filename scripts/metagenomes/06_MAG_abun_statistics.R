@@ -46,10 +46,11 @@ bray.dist=vegdist(covermt, method="bray");
 
 # run PERMANOVA
 adonis2(bray.dist~   
-         mat+
+         preym+
+          mat+
          hyenaID2+
-         preym,
-       data=meta, by="terms",
+         year,
+       data=meta, by="term",
        method = met[i],     
        permutations = 999);
 
@@ -69,12 +70,12 @@ covermt2=covermt[,colnames(covermt) %in% rownames(mag2)];
 
 # BRAY-CURTIS distance
 bray.dist2=vegdist(covermt2, method="bray");
-adonis2(bray.dist2~   
-         mat+
+adonis2(bray.dist2~
+          preym+
+          mat+
          hyenaID2+
-         year+
-         preym,
-       data=meta, by="terms",
+          year,
+       data=meta, by="term",
        method = met[i],     
        permutations = 999);
 
