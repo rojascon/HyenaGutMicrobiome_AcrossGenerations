@@ -93,7 +93,7 @@ barphy=ggplot(data=pbar,
 plot(barphy);
 
 # save image 
-ggsave(filename="03_barplot_phylum.pdf",
+ggsave(filename="03_barplot_phylum2.pdf",
        device="pdf",path="./figures",
        plot=barphy,
        width=8,
