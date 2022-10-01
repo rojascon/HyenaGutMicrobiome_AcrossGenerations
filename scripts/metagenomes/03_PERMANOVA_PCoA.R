@@ -51,19 +51,21 @@ cogabun=as.data.frame(t(cogabun));
 kegg.dist=vegdist(keggabun, method="bray");
 cog.dist=vegdist(cogabun, method="bray");
 
-adonis2(kegg.dist ~    
+adonis2(kegg.dist ~ 
+          preym+
           mat+
           hyenaID2+
-          preym,
+          year,
         data=meta, by="terms",
         method = met[i],     
         permutations = 999);
 
 
-adonis2(cog.dist ~    
+adonis2(cog.dist ~
+          preym+
           mat+
           hyenaID2+
-          preym,
+          year,
         data=meta, by="terms",
         method = met[i],     
         permutations = 999);
