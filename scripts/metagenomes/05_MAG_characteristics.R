@@ -69,7 +69,7 @@ magp2=ggplot() + aes(mag$Size_Mb)+
 
 # make data frame of # of MAGs assigned to Family, # of MAGs assigned to species, etc
 categs=c("Phylum","Class","Order","Family","Genus","Species");
-nums=c(149,149,147,140,91,25);
+nums=c(149,149,149,148,101,31);
 pers=(nums/149) * 100;
 andf=data.frame(categs,nums,pers);
 andf$categs=factor(andf$categs, levels=c("Phylum","Class","Order",

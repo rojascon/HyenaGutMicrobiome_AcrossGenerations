@@ -1,150 +1,150 @@
 MAG,Phylum,Class,Order,Family,Genus,Species,Completeness,Contamination,Strain_heterogeneity,GC,Size_Mb,Gene_count,Coding_density
-metabat.424,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Trueperella,Trueperella pyogenes,96.55,0.29,100,59.7,2.21,1991,0.91
-metabat.45,Actinobacteriota,Actinobacteria,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium longum,98.62,0.77,0,60.2,2.44,2185,0.87
-metabat.64,Actinobacteriota,Actinobacteria,Actinomycetales,Micrococcaceae,Kocuria,,88.65,2.96,0,70.6,2.33,2088,0.89
-metabat.291,Actinobacteriota,Actinobacteria,Mycobacteriales,Mycobacteriaceae,Corynebacterium,,91.53,2.24,81.82,62.8,2.45,2427,0.89
-metabat.284,Actinobacteriota,Actinobacteria,Mycobacteriales,Mycobacteriaceae,Dietzia,,93.47,1.47,33.33,72.6,3.21,3114,0.92
-metabat.309,Actinobacteriota,Actinobacteria,Mycobacteriales,Mycobacteriaceae,Rhodococcus,Rhodococcus gordoniae,88.72,0.89,66.67,68.3,3.92,3721,0.92
+metabat.390,Firmicutes,Clostridia,Oscillospirales,Butyricicoccaceae,Agathobaculum,Agathobaculum desmolans,94.74,0.67,0,55.7,1.91,1969,0.88
+metabat.289,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Asaccharospora,Asaccharospora irregularis,94.17,1.07,33.33,30.2,2.3,2216,0.87
 metabat.438,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,Atopobiaceae_UBA7748,Atopobiaceae_UBA7748 sp900314535,98.39,2.42,0,60.1,2.23,2133,0.87
-metabat.256,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,,,99.19,0.97,42.86,64.4,3.01,2577,0.88
-metabat.574,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,,,95.56,0.27,0,55.1,1.21,1044,0.87
-metabat.419,Actinobacteriota,Coriobacteriia,Coriobacteriales,Coriobacteriaceae,Collinsella,,81.85,1.72,0,63.5,2,1686,0.87
-metabat.38,Actinobacteriota,Coriobacteriia,Coriobacteriales,Eggerthellaceae,Slackia,,93.43,4.3,8.33,61.5,1.66,1467,0.88
-metabat.202,Actinobacteriota,Coriobacteriia,Coriobacteriales,Eggerthellaceae,,,97.98,0.81,0,59.1,1.6,1411,0.89
-metabat.384,Actinobacteriota,Coriobacteriia,Coriobacteriales,,,,92.93,0.47,0,64.8,2.54,2143,0.86
-metabat.546,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,,87.52,0.87,66.67,44.9,2.24,1897,0.9
-metabat.214,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,,86.53,1.07,80,44.2,2.04,1752,0.9
-metabat.173,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,,81.7,1.49,100,42.2,2.26,1803,0.91
-metabat.386,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Prevotellamassilia,,96.86,4.31,14.29,46.2,2.55,2017,0.84
-metabat.245,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,,,93.19,1.33,50,46.8,2.41,2059,0.83
-metabat.491,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,,,86.12,0.87,25,46.7,2.36,1873,0.9
-metabat.76,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidales_UBA932,,,89.67,0,0,41.5,2.16,1751,0.93
-metabat.436,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidales_UBA932,,,85.06,2.97,33.33,40.2,2.14,1893,0.94
-metabat.300,Bacteroidota,Bacteroidia,Bacteroidales,Marinifilaceae,Odoribacter,,97.58,1.08,100,39.7,2.42,2114,0.92
-metabat.183,Bacteroidota,Bacteroidia,Bacteroidales,Muribaculaceae,,,97.76,0.75,0,42.8,2.38,1957,0.88
-metabat.430,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,,98.65,4.64,60,43.6,2.65,2150,0.9
-metabat.519,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,,97.31,0.43,25,43.9,2.35,1962,0.92
-metabat.569,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,,94.84,0.02,0,40.8,2.6,2110,0.91
-metabat.484,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,,85.13,0,0,36.5,1.96,1654,0.91
-metabat.207,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,,98.41,1.1,100,28.5,1.4,1518,0.94
-metabat.132,Deferribacterota,Deferribacteres,Deferribacterales,Mucispirillaceae,Mucispirillum,,97.41,2.59,0,29.9,2.28,2161,0.89
-metabat.192,Deferribacterota,Deferribacteres,Deferribacterales,Mucispirillaceae,Mucispirillum,,86.17,3.45,25,29.7,1.86,1817,0.91
-metabat.432,Desulfobacterota,Desulfovibrionia,Desulfovibrionales,Desulfovibrionaceae,Mailhella,,98.22,0.03,0,37.8,2.01,1824,0.88
-metabat.486,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,,86.98,0.71,75,47.3,3.1,3301,0.86
-metabat.361,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,,83.46,4.12,64.29,39.3,2.69,2918,0.86
-metabat.305,Firmicutes,Bacilli,Bacillales,Bacillaceae,Bacillus,,80.99,2.79,52.94,43.7,3.08,3489,0.87
-metabat.9,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,Planomicrobium glaciei,90.18,1.6,60,47.3,3.02,3237,0.88
-metabat.236,Firmicutes,Bacilli,Bacillales,Planococcaceae,Sporosarcina,,86.42,3.7,66.67,44.2,2.56,2673,0.88
-metabat.566,Firmicutes,Bacilli,Bacillales,Planococcaceae,Sporosarcina,,81.54,2.15,40,40.5,2.14,2154,0.87
-metabat.23,Firmicutes,Bacilli,Bacillales,Planococcaceae,,,90.56,3.68,29.41,40.2,1.94,2009,0.9
-metabat.198,Firmicutes,Bacilli,Bacilli_RFN20,Bacilli_RFN20_CAG-826,,,94.38,1.12,100,50,1.41,1279,0.91
-metabat.442,Firmicutes,Bacilli,Bacilli_RFN20,Bacilli_RFN20_CAG-826,,,81.25,1.24,50,29.7,1.07,1046,0.92
-metabat.578,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,Erysipelatoclostridiaceae_CHKCI006,,97.17,1.89,0,30.3,1.87,1779,0.91
-metabat.144,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,,,100,0.47,0,29.5,1.57,1555,0.92
-metabat.515,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Absiella,,83.56,3.3,75,31,1.79,1657,0.89
-metabat.250,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Absiella,,80,1.18,100,32.8,1.27,1297,0.91
-metabat.326,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Faecalitalea,,88.43,1.08,100,34,1.58,1623,0.92
-metabat.93,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Faecalitalea,,82.58,1.08,100,33.4,1.35,1345,0.91
-metabat.73,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Holdemanella,,91.62,3.44,40,31.5,1.35,1342,0.91
-metabat.392,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,100,0.95,0,29.5,1.6,1572,0.91
-metabat.152,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,98.57,0.95,100,31.9,1.59,1533,0.92
-metabat.178,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,96.67,0.95,100,33.2,1.24,1227,0.94
-metabat.222,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,92.34,4.76,60,30.1,1.43,1500,0.93
-metabat.51,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,90.12,1.9,50,28.5,1.4,1432,0.93
-metabat.322,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,86.46,1.9,100,30.4,1.31,1379,0.93
-metabat.522,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,85.8,1.43,100,29.6,1.43,1449,0.94
-metabat.163,Firmicutes,Bacilli,Lactobacillales,Aerococcaceae,Jeotgalibaca,,80.65,3.52,23.08,42.1,1.81,1944,0.9
-metabat.516,Firmicutes,Bacilli,Lactobacillales,Carnobacteriaceae,Atopostipes,,96.2,1.9,0,35.5,2.08,1949,0.86
+metabat.45,Actinobacteriota,Actinobacteria,Actinomycetales,Bifidobacteriaceae,Bifidobacterium,Bifidobacterium longum,98.62,0.77,0,60.2,2.44,2185,0.87
+metabat.35,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,Blautia caecimuris,84.38,2.53,75,43.8,2.61,2584,0.88
 metabat.444,Firmicutes,Bacilli,Lactobacillales,Carnobacteriaceae,Carnobacterium,Carnobacterium mobile,97.27,2.19,20,36.8,2.36,2239,0.85
-metabat.275,Firmicutes,Bacilli,Lactobacillales,Carnobacteriaceae,Desemzia,,85.65,4.07,42.86,38.4,2.19,2137,0.87
+metabat.559,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium chauvoei,92.64,0.13,100,27.9,2.56,2479,0.89
+metabat.365,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium fallax,94.69,0.97,0,26.6,2.65,2412,0.86
+metabat.174,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium novyi,82.39,1.25,75,27.7,1.57,1679,0.89
+metabat.234,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium septicum,96.53,0.89,50,27.4,3.17,3064,0.87
+metabat.492,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium ventriculi,95.25,1.21,0,27.4,2.37,2256,0.87
 metabat.323,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus casseliflavus,94.59,2.26,77.78,43.4,2.96,2966,0.89
 metabat.306,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus faecalis,99.16,0.19,0,37.4,2.92,2780,0.88
 metabat.89,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus hirae,91.04,1.12,50,37,2.51,2339,0.85
 metabat.579,Firmicutes,Bacilli,Lactobacillales,Enterococcaceae,Enterococcus,Enterococcus pernyi,94.45,2.72,50,38.5,2.75,2687,0.86
-metabat.19,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Lactobacillus ruminis,95.81,0,0,44.1,1.83,1762,0.85
-metabat.105,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,,92.51,1.26,0,27.4,1.03,973,0.89
-metabat.228,Firmicutes,Bacilli,Lactobacillales,Vagococcaceae,Vagococcus,Vagococcus lutrae,98.9,1.47,33.33,37.3,2.25,2269,0.91
-metabat.575,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,,,99.23,0.38,0,28.4,1.11,801,0.92
-metabat.478,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,,,98.46,1.15,0,29.4,0.56,532,0.94
-metabat.387,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,,,98.08,1.15,0,25.8,0.8,663,0.94
-metabat.554,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,,,87.37,3.33,50,27.1,0.73,632,0.96
-metabat.44,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,,,82.28,1.15,0,37.8,0.6,562,0.93
-metabat.235,Firmicutes,Bacilli,Staphylococcales,Salinicoccaceae,Jeotgalicoccus,,80.58,3.07,50,41.9,1.49,1733,0.91
+metabat.100,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli,80.44,2.81,89.29,50.9,3.36,3494,0.89
+metabat.325,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalimonas,Faecalimonas umbilicata,89.56,1.9,25,42,2.27,2161,0.9
+metabat.404,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium varium,93.89,3.53,25,29.2,3.11,2979,0.89
+metabat.235,Firmicutes,Bacilli,Staphylococcales,Salinicoccaceae,Jeotgalicoccus,Jeotgalicoccus halotolerans,80.58,3.07,50,41.9,1.49,1733,0.91
+metabat.19,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Lactobacillus,Ligilactobacillus ruminis,95.81,0,0,44.1,1.83,1762,0.85
 metabat.302,Firmicutes,Bacilli,Staphylococcales,Staphylococcaceae,Macrococcus,Macrococcus caseolyticus,90.48,3.32,83.33,37.1,1.8,1993,0.91
-metabat.395,Firmicutes,Clostridia,Christensenellales,Christensenellales CAG-74,,,98.39,1.61,0,60.7,2.42,2244,0.89
-metabat.264,Firmicutes,Clostridia,Christensenellales,Christensenellales CAG-74,,,90.44,1.4,50,60.9,2.16,2006,0.88
-metabat.513,Firmicutes,Clostridia,Christensenellales,Christensenellales UBA6094,,,95.96,0,0,36.8,1.46,1498,0.9
-metabat.559,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium chauvoei,92.64,0.13,100,27.9,2.56,2479,0.89
-metabat.365,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium fallax,94.69,0.97,0,26.6,2.65,2412,0.86
-metabat.174,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium haemolyticum,82.39,1.25,75,27.7,1.57,1679,0.89
-metabat.234,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium septicum,96.53,0.89,50,27.4,3.17,3064,0.87
-metabat.492,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,Clostridium ventriculi,95.25,1.21,0,27.4,2.37,2256,0.87
-metabat.445,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,98.43,3.57,51.85,28.1,3.8,3558,0.88
-metabat.205,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,97.43,4.39,33.33,26.6,2.41,2344,0.88
-metabat.417,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,95.03,0.69,0,25.9,2.33,2116,0.84
-metabat.230,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,90.28,2.06,0,28.9,3.93,3730,0.88
-metabat.298,Firmicutes,Clostridia,Clostridiales,Savagellaceae,,,90.38,0,0,27.9,1.55,1471,0.9
-metabat.571,Firmicutes,Clostridia,Eubacteriales,Eubacteriaceae,Eubacterium,,98.59,0,0,41.9,1.88,1728,0.88
 metabat.458,Firmicutes,Clostridia,Lachnospirales,Cellulosilyticaceae,Niameybacter,Niameybacter massiliensis,94.3,4.25,0,34.2,3.88,3690,0.89
-metabat.35,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,Blautia sp000433815,84.38,2.53,75,43.8,2.61,2584,0.88
-metabat.94,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,,90.68,1.42,28.57,40.5,2.1,1892,0.91
-metabat.422,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,,88.27,0.21,100,42.5,2.6,2524,0.91
-metabat.564,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,,88.12,3.64,71.43,42,2.14,1941,0.91
-metabat.538,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,,80.82,3.34,85.71,41.6,1.99,2002,0.92
-metabat.454,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalicatena,Faecalicatena glycyrrhizinilyticum,80.62,0.12,0,46.7,2.26,2194,0.91
-metabat.315,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalicatena,Faecalicatena gnavus ,93.39,2.14,20,43.5,2.51,2475,0.91
-metabat.505,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalicatena,Faecalicatena sp002320245,84.42,0.58,0,43.5,2.52,2420,0.88
-metabat.459,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Lachnospiraceae CAG-81,,96.2,0.44,100,51.2,2.28,2108,0.9
-metabat.55,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Roseburia,,95.94,0.48,0,43.4,2.68,2490,0.89
-metabat.282,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Roseburia,,92.75,1.3,60,50.8,2.5,2440,0.91
-metabat.325,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Tyzzerella,Tyzzerella sp000411335,89.56,1.9,25,42,2.27,2161,0.9
-metabat.268,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Tyzzerella,,95.57,1.9,33.33,39.4,1.91,1925,0.91
-metabat.102,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Tyzzerella,,89.7,2.53,11.11,36.8,1.78,1727,0.92
-metabat.248,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,,,93.67,0.37,50,43.7,2.29,2088,0.91
-metabat.290,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,,,92.62,0,0,38.3,1.97,1822,0.91
-metabat.557,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,,,86.93,0.63,0,42.8,1.83,1730,0.92
-metabat.352,Firmicutes,Clostridia,Lachnospirales,Lachnospirales_CAG-274,,,87.47,1.34,100,27.3,1.52,1456,0.89
-metabat.329,Firmicutes,Clostridia,Oscillospirales,Acutalibacteraceae,Acutalibacteraceae CAG-180,,95.97,0.34,0,38.2,1.55,1480,0.91
+metabat.142,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptostreptococcus,Peptostreptococcus russellii,85.34,0.7,100,30.6,1.73,1532,0.84
+metabat.9,Firmicutes,Bacilli,Bacillales,Planococcaceae,Planomicrobium,Planomicrobium glaciei,90.18,1.6,60,47.3,3.02,3237,0.88
+metabat.309,Actinobacteriota,Actinobacteria,Mycobacteriales,Mycobacteriaceae,Rhodococcus,Rhodococcus gordoniae,88.72,0.89,66.67,68.3,3.92,3721,0.92
+metabat.281,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Romboutsia,Romboutsia hominis,88.01,1.58,100,27.8,2.51,2539,0.87
 metabat.24,Firmicutes,Clostridia,Oscillospirales,Acutalibacteraceae,Ruminococcus,Ruminococcus  sp003526955,90.8,4.03,33.33,39.3,1.88,1947,0.87
-metabat.390,Firmicutes,Clostridia,Oscillospirales,Butyricicoccaceae,Agathobaculum,Agathobaculum desmolans,94.74,0.67,0,55.7,1.91,1969,0.88
-metabat.218,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Lawsonibacter,,94.33,2.01,0,56.5,2.13,2033,0.87
-metabat.512,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Lawsonibacter,,92.85,1.34,100,54,1.84,1826,0.89
-metabat.113,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Lawsonibacter,,87.27,1.9,20,62.2,1.7,1766,0.89
-metabat.474,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Oscillospiraceae CAG-110,,93.25,2.35,25,56.9,1.85,1785,0.89
-metabat.402,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Ruminiclostridium,,87.75,0.22,0,62.2,1.82,1879,0.88
-metabat.58,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,,,98.66,0,0,40.3,1.73,1566,0.88
-metabat.40,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,,,97.32,1.17,100,54,1.8,1785,0.9
-metabat.389,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,,,91.28,0,0,54.2,1.9,1848,0.9
-metabat.399,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,,,88.6,1.79,50,61.9,2.05,1970,0.85
-metabat.412,Firmicutes,Clostridia,Oscillospirales,Ruminococcaceae,,,98.43,0.73,0,52.3,2.21,2124,0.9
-metabat.244,Firmicutes,Clostridia,Oscillospirales,Ruminococcaceae,,,97.99,0.89,100,46.5,1.89,1740,0.85
-metabat.537,Firmicutes,Clostridia,Oscillospirales,Ruminococcaceae,,,91.28,3.36,80,57.4,1.61,1626,0.88
+metabat.315,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Ruminococcus,Ruminococcus gnavus ,93.39,2.14,20,43.5,2.51,2475,0.91
+metabat.454,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Schaedlerella,Schaedlerella glycyrrhizinilytica,80.62,0.12,0,46.7,2.26,2194,0.91
+metabat.424,Actinobacteriota,Actinobacteria,Actinomycetales,Actinomycetaceae,Trueperella,Trueperella pyogenes,96.55,0.29,100,59.7,2.21,1991,0.91
+metabat.228,Firmicutes,Bacilli,Lactobacillales,Vagococcaceae,Vagococcus,Vagococcus lutrae,98.9,1.47,33.33,37.3,2.25,2269,0.91
+metabat.329,Firmicutes,Clostridia,Oscillospirales,Acutalibacteraceae,Acutalibacteraceae CAG-180,,95.97,0.34,0,38.2,1.55,1480,0.91
+metabat.250,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Amedibacillus,,80,1.18,100,32.8,1.27,1297,0.91
+metabat.515,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Amedibacillus,,83.56,3.3,75,31,1.79,1657,0.89
+metabat.181,Proteobacteria,Gammaproteobacteria,Enterobacterales,Succinivibrionaceae,Anaerobiospirillum,,99.41,0.59,100,39.7,2.39,2052,0.85
 metabat.151,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Anaerovoracaceae CAG-145,,96.1,0,0,40.2,1.87,1741,0.88
+metabat.516,Firmicutes,Bacilli,Lactobacillales,Carnobacteriaceae,Atopostipes,,96.2,1.9,0,35.5,2.08,1949,0.86
+metabat.173,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,,81.7,1.49,100,42.2,2.26,1803,0.91
+metabat.214,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,,86.53,1.07,80,44.2,2.04,1752,0.9
+metabat.546,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Bacteroides,,87.52,0.87,66.67,44.9,2.24,1897,0.9
+metabat.422,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,,88.27,0.21,100,42.5,2.6,2524,0.91
+metabat.538,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,,80.82,3.34,85.71,41.6,1.99,2002,0.92
+metabat.564,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,,88.12,3.64,71.43,42,2.14,1941,0.91
+metabat.94,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Blautia,,90.68,1.42,28.57,40.5,2.1,1892,0.91
+metabat.523,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderiaceae CAG-521,,93.75,1.88,66.67,43.7,1.43,1333,0.9
+metabat.207,Campylobacterota,Campylobacteria,Campylobacterales,Campylobacteraceae,Campylobacter,,98.41,1.1,100,28.5,1.4,1518,0.94
+metabat.290,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Catenibacillus,,92.62,0,0,38.3,1.97,1822,0.91
+metabat.205,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,97.43,4.39,33.33,26.6,2.41,2344,0.88
+metabat.230,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,90.28,2.06,0,28.9,3.93,3730,0.88
+metabat.417,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,95.03,0.69,0,25.9,2.33,2116,0.84
+metabat.445,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Clostridium,,98.43,3.57,51.85,28.1,3.8,3558,0.88
+metabat.419,Actinobacteriota,Coriobacteriia,Coriobacteriales,Coriobacteriaceae,Collinsella,,81.85,1.72,0,63.5,2,1686,0.87
+metabat.291,Actinobacteriota,Actinobacteria,Mycobacteriales,Mycobacteriaceae,Corynebacterium,,91.53,2.24,81.82,62.8,2.45,2427,0.89
+metabat.275,Firmicutes,Bacilli,Lactobacillales,Carnobacteriaceae,Desemzia,,85.65,4.07,42.86,38.4,2.19,2137,0.87
+metabat.284,Actinobacteriota,Actinobacteria,Mycobacteriales,Mycobacteriaceae,Dietzia,,93.47,1.47,33.33,72.6,3.21,3114,0.92
+metabat.298,Firmicutes,Clostridia,Clostridiales,Clostridiaceae,Dwaynesavagella,,90.38,0,0,27.9,1.55,1471,0.9
 metabat.321,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Emergencia,,93.69,0.24,100,46.4,1.73,1711,0.89
+metabat.578,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,Erysipelatoclostridiaceae_CHKCI006,,97.17,1.89,0,30.3,1.87,1779,0.91
 metabat.195,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Eubacterium,,90.78,1.42,0,34.9,1.4,1220,0.87
 metabat.581,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Eubacterium,,90.78,0,0,34.1,1.48,1382,0.92
-metabat.476,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Eubacterium,,87.23,2.48,40,37,1.4,1242,0.87
-metabat.160,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Mogibacterium,,94.68,2.62,20,51.2,1.79,1641,0.88
-metabat.360,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Mogibacterium,,91.33,3.72,75,48.4,1.98,1799,0.9
-metabat.568,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,Mogibacterium,,91.13,2.01,50,43.7,1.35,1281,0.91
-metabat.221,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,93.88,0.02,100,40.7,1.69,1700,0.92
-metabat.187,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,92.91,2.13,0,38.7,1.54,1468,0.92
-metabat.161,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,91.84,1.06,50,50.5,1.6,1424,0.85
-metabat.289,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Asaccharospora,Asaccharospora irregularis,94.17,1.07,33.33,30.2,2.3,2216,0.87
-metabat.142,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptostreptococcus,Peptostreptococcus russellii,85.34,0.7,100,30.6,1.73,1532,0.84
+metabat.571,Firmicutes,Clostridia,Eubacteriales,Eubacteriaceae,Eubacterium,,98.59,0,0,41.9,1.88,1728,0.88
+metabat.402,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Evtepia,,87.75,0.22,0,62.2,1.82,1879,0.88
+metabat.102,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalimonas,,89.7,2.53,11.11,36.8,1.78,1727,0.92
+metabat.268,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Faecalimonas,,95.57,1.9,33.33,39.4,1.91,1925,0.91
+metabat.326,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Faecalitalea,,88.43,1.08,100,34,1.58,1623,0.92
+metabat.73,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Faecalitalea,,91.62,3.44,40,31.5,1.35,1342,0.91
+metabat.93,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,Faecalitalea,,82.58,1.08,100,33.4,1.35,1345,0.91
+metabat.163,Firmicutes,Bacilli,Lactobacillales,Aerococcaceae,Jeotgalibaca,,80.65,3.52,23.08,42.1,1.81,1944,0.9
+metabat.64,Actinobacteriota,Actinobacteria,Actinomycetales,Micrococcaceae,Kocuria,,88.65,2.96,0,70.6,2.33,2088,0.89
+metabat.459,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Lachnospiraceae CAG-81,,96.2,0.44,100,51.2,2.28,2108,0.9
+metabat.113,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Lawsonibacter,,87.27,1.9,20,62.2,1.7,1766,0.89
+metabat.218,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Lawsonibacter,,94.33,2.01,0,56.5,2.13,2033,0.87
+metabat.512,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Lawsonibacter,,92.85,1.34,100,54,1.84,1826,0.89
+metabat.105,Firmicutes,Bacilli,Lactobacillales,Lactobacillaceae,Ligilactobacillus,,92.51,1.26,0,27.4,1.03,973,0.89
+metabat.432,Desulfobacterota,Desulfovibrionia,Desulfovibrionales,Desulfovibrionaceae,Mailhella,,98.22,0.03,0,37.8,2.01,1824,0.88
+metabat.132,Deferribacterota,Deferribacteres,Deferribacterales,Mucispirillaceae,Mucispirillum,,97.41,2.59,0,29.9,2.28,2161,0.89
+metabat.192,Deferribacterota,Deferribacteres,Deferribacterales,Mucispirillaceae,Mucispirillum,,86.17,3.45,25,29.7,1.86,1817,0.91
+metabat.387,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,Mycoplasma,,98.08,1.15,0,25.8,0.8,663,0.94
+metabat.554,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,Mycoplasma,,87.37,3.33,50,27.1,0.73,632,0.96
+metabat.575,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,Mycoplasma,,99.23,0.38,0,28.4,1.11,801,0.92
+metabat.300,Bacteroidota,Bacteroidia,Bacteroidales,Marinifilaceae,Odoribacter,,97.58,1.08,100,39.7,2.42,2114,0.92
+metabat.474,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,Oscillospiraceae CAG-110,,93.25,2.35,25,56.9,1.85,1785,0.89
+metabat.430,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,,98.65,4.64,60,43.6,2.65,2150,0.9
+metabat.484,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,,85.13,0,0,36.5,1.96,1654,0.91
+metabat.519,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,,97.31,0.43,25,43.9,2.35,1962,0.92
+metabat.569,Bacteroidota,Bacteroidia,Bacteroidales,Tannerellaceae,Parabacteroides,,94.84,0.02,0,40.8,2.6,2110,0.91
 metabat.259,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Peptostreptococcus,,86.89,0.41,100,30,1.68,1503,0.85
-metabat.281,Firmicutes,Clostridia,Peptostreptococcales,Peptostreptococcaceae,Romboutsia,Romboutsia sp900002575,88.01,1.58,100,27.8,2.51,2539,0.87
+metabat.305,Firmicutes,Bacilli,Bacillales,Bacillaceae,Peribacillus,,80.99,2.79,52.94,43.7,3.08,3489,0.87
+metabat.361,Firmicutes,Bacilli,Bacillales,Bacillaceae,Peribacillus,,83.46,4.12,64.29,39.3,2.69,2918,0.86
+metabat.486,Firmicutes,Bacilli,Bacillales,Bacillaceae,Peribacillus,,86.98,0.71,75,47.3,3.1,3301,0.86
+metabat.386,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,Prevotellamassilia,,96.86,4.31,14.29,46.2,2.55,2017,0.84
+metabat.282,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Roseburia,,92.75,1.3,60,50.8,2.5,2440,0.91
+metabat.55,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Roseburia,,95.94,0.48,0,43.4,2.68,2490,0.89
 metabat.169,Firmicutes,Clostridia,Saccharofermentanales,Saccharofermentanaceae,Saccharofermentans,,89.1,3.07,9.09,48.5,2.42,2353,0.93
-metabat.249,Firmicutes,Clostridia,Tissierellales,Helcococcaceae,,,95.7,0,0,30.5,1.42,1405,0.92
-metabat.208,Firmicutes,Clostridia,Tissierellales,Helcococcaceae,,,93.88,1.98,25,28.4,1.57,1539,0.9
+metabat.505,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,Schaedlerella,,84.42,0.58,0,43.5,2.52,2420,0.88
+metabat.23,Firmicutes,Bacilli,Bacillales,Planococcaceae,Sporosarcina,,90.56,3.68,29.41,40.2,1.94,2009,0.9
+metabat.236,Firmicutes,Bacilli,Bacillales,Planococcaceae,Sporosarcina,,86.42,3.7,66.67,44.2,2.56,2673,0.88
+metabat.566,Firmicutes,Bacilli,Bacillales,Planococcaceae,Sporosarcina,,81.54,2.15,40,40.5,2.14,2154,0.87
+metabat.338,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Sutterella,,92.98,1.97,20,49.2,2.06,1841,0.87
+metabat.44,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,Ureaplasma,,82.28,1.15,0,37.8,0.6,562,0.93
+metabat.478,Firmicutes,Bacilli,Mycoplasmatales,Mycoplasmoidaceae,Ureaplasma,,98.46,1.15,0,29.4,0.56,532,0.94
+metabat.160,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,94.68,2.62,20,51.2,1.79,1641,0.88
+metabat.161,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,91.84,1.06,50,50.5,1.6,1424,0.85
+metabat.187,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,92.91,2.13,0,38.7,1.54,1468,0.92
+metabat.221,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,93.88,0.02,100,40.7,1.69,1700,0.92
+metabat.360,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,91.33,3.72,75,48.4,1.98,1799,0.9
+metabat.476,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,87.23,2.48,40,37,1.4,1242,0.87
+metabat.568,Firmicutes,Clostridia,Peptostreptococcales,Anaerovoracaceae,,,91.13,2.01,50,43.7,1.35,1281,0.91
+metabat.256,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,,,99.19,0.97,42.86,64.4,3.01,2577,0.88
+metabat.574,Actinobacteriota,Coriobacteriia,Coriobacteriales,Atopobiaceae,,,95.56,0.27,0,55.1,1.21,1044,0.87
+metabat.198,Firmicutes,Bacilli,Bacilli_RFN20,Bacilli_RFN20_CAG-826,,,94.38,1.12,100,50,1.41,1279,0.91
+metabat.442,Firmicutes,Bacilli,Bacilli_RFN20,Bacilli_RFN20_CAG-826,,,81.25,1.24,50,29.7,1.07,1046,0.92
+metabat.245,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,,,93.19,1.33,50,46.8,2.41,2059,0.83
+metabat.491,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidaceae,,,86.12,0.87,25,46.7,2.36,1873,0.9
+metabat.436,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidales_UBA932,,,85.06,2.97,33.33,40.2,2.14,1893,0.94
+metabat.76,Bacteroidota,Bacteroidia,Bacteroidales,Bacteroidales_UBA932,,,89.67,0,0,41.5,2.16,1751,0.93
+metabat.549,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,,,94.57,2.33,80,63.7,1.71,1540,0.85
+metabat.264,Firmicutes,Clostridia,Christensenellales,Christensenellales CAG-74,,,90.44,1.4,50,60.9,2.16,2006,0.88
+metabat.395,Firmicutes,Clostridia,Christensenellales,Christensenellales CAG-74,,,98.39,1.61,0,60.7,2.42,2244,0.89
+metabat.513,Firmicutes,Clostridia,Christensenellales,Christensenellales UBA6094,,,95.96,0,0,36.8,1.46,1498,0.9
+metabat.202,Actinobacteriota,Coriobacteriia,Coriobacteriales,Eggerthellaceae,,,97.98,0.81,0,59.1,1.6,1411,0.89
+metabat.38,Actinobacteriota,Coriobacteriia,Coriobacteriales,Eggerthellaceae,,,93.43,4.3,8.33,61.5,1.66,1467,0.88
+metabat.144,Firmicutes,Bacilli,Erysipelotrichales,Erysipelatoclostridiaceae,,,100,0.47,0,29.5,1.57,1555,0.92
+metabat.152,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,98.57,0.95,100,31.9,1.59,1533,0.92
+metabat.178,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,96.67,0.95,100,33.2,1.24,1227,0.94
+metabat.222,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,92.34,4.76,60,30.1,1.43,1500,0.93
+metabat.322,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,86.46,1.9,100,30.4,1.31,1379,0.93
+metabat.392,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,100,0.95,0,29.5,1.6,1572,0.91
+metabat.51,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,90.12,1.9,50,28.5,1.4,1432,0.93
+metabat.522,Firmicutes,Bacilli,Erysipelotrichales,Erysipelotrichaceae,,,85.8,1.43,100,29.6,1.43,1449,0.94
+metabat.248,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,,,93.67,0.37,50,43.7,2.29,2088,0.91
+metabat.557,Firmicutes,Clostridia,Lachnospirales,Lachnospiraceae,,,86.93,0.63,0,42.8,1.83,1730,0.92
+metabat.352,Firmicutes,Clostridia,Lachnospirales,Lachnospirales_CAG-274,,,87.47,1.34,100,27.3,1.52,1456,0.89
+metabat.183,Bacteroidota,Bacteroidia,Bacteroidales,Muribaculaceae,,,97.76,0.75,0,42.8,2.38,1957,0.88
+metabat.389,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,,,91.28,0,0,54.2,1.9,1848,0.9
+metabat.399,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,,,88.6,1.79,50,61.9,2.05,1970,0.85
+metabat.40,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,,,97.32,1.17,100,54,1.8,1785,0.9
+metabat.58,Firmicutes,Clostridia,Oscillospirales,Oscillospiraceae,,,98.66,0,0,40.3,1.73,1566,0.88
+metabat.208,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,,,93.88,1.98,25,28.4,1.57,1539,0.9
 metabat.241,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,,,97.2,2.8,0,28.8,1.6,1495,0.9
+metabat.249,Firmicutes,Clostridia,Tissierellales,Peptoniphilaceae,,,95.7,0,0,30.5,1.42,1405,0.92
+metabat.244,Firmicutes,Clostridia,Oscillospirales,Ruminococcaceae,,,97.99,0.89,100,46.5,1.89,1740,0.85
+metabat.412,Firmicutes,Clostridia,Oscillospirales,Ruminococcaceae,,,98.43,0.73,0,52.3,2.21,2124,0.9
+metabat.537,Firmicutes,Clostridia,Oscillospirales,Ruminococcaceae,,,91.28,3.36,80,57.4,1.61,1626,0.88
 metabat.350,Firmicutes,Clostridia,Tissierellales,Sedimentibacteraceae,,,90.09,0.7,0,29.6,1.6,1486,0.9
 metabat.109,Firmicutes,Negativicutes,Selenomonadales,Selenomonadaceae ,,,90.84,2.03,70,40,1.29,1248,0.85
-metabat.404,Fusobacteriota,Fusobacteriia,Fusobacteriales,Fusobacteriaceae,Fusobacterium,Fusobacterium varium,93.89,3.53,25,29.2,3.11,2979,0.89
-metabat.523,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Burkholderiaceae CAG-521,,93.75,1.88,66.67,43.7,1.43,1333,0.9
-metabat.338,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,Sutterella,,92.98,1.97,20,49.2,2.06,1841,0.87
-metabat.549,Proteobacteria,Gammaproteobacteria,Burkholderiales,Burkholderiaceae,,,94.57,2.33,80,63.7,1.71,1540,0.85
-metabat.100,Proteobacteria,Gammaproteobacteria,Enterobacterales,Enterobacteriaceae,Escherichia,Escherichia coli,80.44,2.81,89.29,50.9,3.36,3494,0.89
-metabat.181,Proteobacteria,Gammaproteobacteria,Enterobacterales,Succinivibrionaceae,Anaerobiospirillum,,99.41,0.59,100,39.7,2.39,2052,0.85
 metabat.470,Spirochaetota,Spirochaetia,Sphaerochaetales,Sphaerochaetaceae,,,96.59,0,0,33.6,1.89,1762,0.93
 metabat.542,Spirochaetota,Spirochaetia,Sphaerochaetales,Sphaerochaetaceae,,,86.73,0.07,100,36.6,1.65,1697,0.92
+metabat.384,Actinobacteriota,Coriobacteriia,Coriobacteriales,,,,92.93,0.47,0,64.8,2.54,2143,0.86
